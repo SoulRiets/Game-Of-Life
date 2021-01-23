@@ -1,0 +1,27 @@
+﻿  Main.cpp
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(99,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(99,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(103,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(103,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(260,32): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(260,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(261,36): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(261,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(262,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(262,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(263,35): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(263,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(288,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(296,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(297,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(297,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(304,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(305,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\C++\OpenGL\GameOfLife\src\Main.cpp(305,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  0 of 20 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  GameOfLife.vcxproj -> D:\C++\OpenGL\GameOfLife\bin\x64\GameOfLife.exe
