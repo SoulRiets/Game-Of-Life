@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\GameBoard.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +30,7 @@
     <ClInclude Include="external dependencies\includes\32_bit\GLFW\glfw3.h" />
     <ClInclude Include="external dependencies\includes\64_bit\GLFW\glfw3.h" />
     <ClInclude Include="external dependencies\includes\64_bit\stb_image.h" />
+    <ClInclude Include="src\GameBoard.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -111,7 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\32_bit</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src;$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\32_bit</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,7 +130,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\32_bit</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src;$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\32_bit</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,7 +147,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\64_bit;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src;$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\64_bit;</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>
       </AdditionalUsingDirectories>
     </ClCompile>
@@ -164,7 +166,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\64_bit;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src;$(SolutionDir)\external dependencies\includes\64_bit;$(SolutionDir)\external dependencies\includes\64_bit;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

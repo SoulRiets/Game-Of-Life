@@ -18,6 +18,9 @@
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\GameBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="external dependencies\libs\32_bit\glfw3.lib" />
@@ -31,6 +34,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external dependencies\includes\64_bit\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
